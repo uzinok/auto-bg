@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-  <include src="src/template/head.html"></include>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <div style="display: none;">
-    <include src="resource/svg/sprite.svg"></include>
-  </div>
-  <include src="src/template/header.html"></include>
+
   <main>
+      <h2 class="heading-bd">33 буквы. Из журнала «Наука и жизнь»
+      </h2>
+    <p>Экс-граф? Плюш изъят. Бьём чуждый цен хвощ!</p>
 
-    <h2>Hello</h2>
-    <svg width="300" class="footer-developer-link__img" role="img">
-      <use xlink:href="#cat-logo"></use>
-    </svg>
-    <img width="300" src="img/img.jpg" alt="#">
+    <h2 class="heading-bd">Эй, жлоб! Где туз? Прячь юных съёмщиц в шкаф.</h2>
+    <p>33 буквы. По преданию, придумана профессором комбинаторики Санкт-Петербургского государственного университета.
+      Прислал Виктор Баргачев</p>
 
-    <include src="src/template/footer.html"></include>
+    <h2 class="heading-bd">33 буквы. Прислал Аркадий Чубрик</h2>
+    <p>— Любя, съешь щипцы, — вздохнёт мэр, — кайф жгуч.</p>
   </main>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
